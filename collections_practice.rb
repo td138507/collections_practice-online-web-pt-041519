@@ -1,5 +1,5 @@
 def sort_array_asc(integers)
-  integers.sort 
+  integers.sort
 end
 
 def sort_array_desc(integers)
@@ -40,11 +40,10 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, index|
-    if index == 1 
+    if index == 1
       string
     else
       string << "s"
     end
   end
 end
-  
